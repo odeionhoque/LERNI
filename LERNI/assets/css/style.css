@@ -1,0 +1,224 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    
+    background: #ffffff;
+    color: #1a1a1a;
+}
+
+/* CONTAINER CENTRAL IGUAL UDEMY */
+.container {
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* NAVBAR */
+.navbar-wrapper {
+    width: 100%;
+    background: white;
+    padding: 16px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.search-box {
+    flex: 1;
+    max-width: 500px;
+    margin: 0 40px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.login {
+    padding: 10px 20px;
+    background: #e2f3ff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.cadastro {
+    padding: 10px 20px;
+    background: #0066ff;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* BANNER */
+.banner {
+
+    width: 100%; 
+    max-width: 1300px; 
+    height: 270px; 
+    background: #111f49;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 0; 
+    overflow: hidden; 
+}
+
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.banner-text {
+    width: 350px;
+}
+
+.banner-text h2 {
+    color: white;
+    font-size: 26px;
+    line-height: 1.3;
+}
+
+.banner-img {
+    width: 300px;
+    height: 200px;
+    background: transparent;
+}
+
+/* DIVISOR */
+.divisor {
+    margin: 60px 0;
+    height: 1px;
+    border: none;
+    background: #eaeaea;
+}
+
+.megafone-img {
+    width: 300px;   /* AQUI você escolhe o tamanho */
+}
+
+.megafone-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;   /* ← empurra só os textos para a direita */
+}
+
+.megafone-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 12px;   /* AQUI separa os textos */
+    color: #1C1F3F;
+}
+
+.megafone-text p {
+    font-size: 35px;
+    margin-top: 12px;   /* também funciona */
+    color: #727272;
+}
+.megafone-section {
+    display: flex;
+    align-items: center;     /* centraliza verticalmente */
+    gap: 40px;               /* espaço entre imagem e texto */
+    max-width: 1200px;       /* para afastar das bordas */
+    margin: 0 auto;          /* centraliza na página */
+    padding: 40px 20px;      /* espaçamento interno */
+}
+
+
+/* CURSOS HEADER */
+.cursos-header {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cursos-header h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.select-btn {
+    background: #111f49;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.arrow {
+    margin-left: 6px;
+}
+
+/* GRID */
+.cursos-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 300px); 
+    gap: 50px 70px;
+}
+
+.curso-card {
+    background: #fff;
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid #e7e7e7;
+    height: 260px;
+}
+
+.thumb {
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    background: #d9d9d9;
+    margin-bottom: 15px;
+}
+
+.curso-card h4 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.curso-card p {
+    font-size: 14px;
+    color: #747474;
+}
+
+.favorite {
+    margin-top: 16px;
+    background: #fffad1;
+    width: 48px;
+    padding: 6px;
+    border-radius: 8px;
+}

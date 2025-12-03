@@ -1,92 +1,88 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Lerni — Clone Front-end</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lerni — Cursos Gratuitos</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-<header class="top">
-<div class="brand">Lerni</div>
-<div class="search">
-<input aria-label="Pesquisar cursos" placeholder="Pesquise por cursos" />
-</div>
-<div class="actions">
-<button class="btn btn-ghost">Login</button>
-<button class="btn btn-primary">Inscreva-se</button>
-</div>
-</header>
 
+    <div class="navbar-wrapper">
+        <div class="container navbar">
+            <h1 class="logo">Lerni</h1>
 
-<main class="container">
-<img src="banner (1) (2) (1).png" alt="banner">
-<section class="hero">
-<div class="hero-left">
-<div class="badge">A qualificação que você procura, no lugar certo.</div>
-<div class="hero-cta">Cursos técnicos e gratuitos perto de você — encontre por região e área de interesse.</div>
-</div>
-<div class="hero-img" role="img" aria-label="Pessoa com laptop" style="background-image:url('placeholder-hero.jpg')"></div>
-</section>
+            <div class="search-box">
+                <input type="text" placeholder="Pesquise por cursos">
+            </div>
 
+            <div class="nav-buttons">
+                <button class="login">Login</button>
+                <button class="cadastro">Inscreva-se</button>
+            </div>
+        </div>
+    </div>
 
-<section class="connect">
-<div class="art">
-<img src="megafone.png" alt="megafone" />
-</div>
-<div class="text">
-<h3>Lerni: conectando você ao conhecimento certo, no lugar certo.</h3>
-<p>Educação acessível ao seu alcance. Encontre cursos gratuitos organizados por região e área de interesse. Seu próximo passo está aqui.</p>
-</div>
-</section>
-
-
-<div class="region-row">
-<h4>Cursos Disponíveis na Sua Região</h4>
-<button class="select-btn">Selecionar região ▾</button>
+    <div class="container">
+        
+<div class="banner">
+    <img src="./assets/img/Group 10.png" alt="Banner Lerni">
 </div>
 
 
-<section class="grid" aria-label="Lista de cursos">
-<article class="card">
-<div class="thumb" aria-hidden="true"></div>
-<h5>Ppreparação de Rocambole</h5>
-<p>Informações</p>
-<div class="fav">
-<div class="star">★</div>
+        <hr class="divisor">
+
+<div class="megafone-section">
+    <img src="./assets/img/oi-removebg-preview 2 (1).png" class="megafone-img">
+
+    <div class="megafone-text">
+        <h2>Lerni: conectando você ao conhecimento certo, no lugar certo.</h2>
+        <p>Educação acessível ao seu alcance. Encontre cursos gratuitos organizados por região e área de interesse. Seu próximo passo está aqui.</p>
+    </div>
 </div>
-</article>
 
 
-<article class="card">
-<div class="thumb" aria-hidden="true"></div>
-<h5>Ingles</h5>
-<p>Informações</p>
-<div class="fav">
-<div class="star">★</div>
-</div>
-</article>
+        <div class="cursos-header">
+            <h3>Cursos Disponíveis na Sua Região</h3>
+            <button class="select-btn">
+                Selecionar região <span class="arrow">▼</span>
+            </button>
+        </div>
 
+        <section class="cursos-grid">
+            
+            <div class="curso-card">
+                <div class="thumb"></div>
+                <h4>Nome do Curso</h4>
+                <p>Informações</p>
+                <div class="favorite">⭐</div>
+            </div>
 
-<article class="card">
-<div class="thumb" aria-hidden="true"></div>
-<h5>Designer</h5>
-<p>Informações</p>
-<div class="fav">
-<div class="star">★</div>
-</div>
-</article>
+            <div class="curso-card">
+                <div class="thumb"></div>
+                <h4>Nome do Curso</h4>
+                <p>Informações</p>
+                <div class="favorite">⭐</div>
+            </div>
 
+            <div class="curso-card">
+                <div class="thumb"></div>
+                <h4>Nome do Curso</h4>
+                <p>Informações</p>
+                <div class="favorite">⭐</div>
+            </div>
 
-<article class="card">
-<div class="thumb" aria-hidden="true"></div>
-<h5>Dança</h5>
-<p>Informações</p>
-<div class="fav">
-<div class="star">★</div>
-</html>
+            <div class="curso-card">
+                <div class="thumb"></div>
+                <h4>Nome do Curso</h4>
+                <p>Informações</p>
+                <div class="favorite">⭐</div>
+            </div>
+        </section>
 
-  ...
-  <script src="script.js"></script>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
